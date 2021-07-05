@@ -34,6 +34,7 @@ const TopicDetail = props => {
 
 function App() {
   return (
+    // By usint "/:input" it can be dinamic
     <div>
       <Route exact path='/' component={HomePage} />
       <Route exact path='/blog/asdqw/topics' component={TopicsList} />
